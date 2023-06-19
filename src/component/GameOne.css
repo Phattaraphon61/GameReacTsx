@@ -1,0 +1,162 @@
+.GameOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GameOne .health {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-container {
+    position: relative;
+}
+
+.progress-container progress {
+    background-color: #eee;
+    height: 40px;
+    width: 40vw;
+}
+
+.progress-container-player {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-container-enemy {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-container-enemy progress::-webkit-progress-bar {
+    background-color: blue;
+}
+
+.progress-container-player progress::-webkit-progress-bar {
+    background-color: #eee;
+
+}
+
+.progress-container-player progress::-webkit-progress-value {
+    background-color: red;
+}
+
+.progress-container-enemy progress::-webkit-progress-value {
+    background-color: #eee;
+}
+
+.progress-container .progress-label {
+    position: absolute;
+    top: 7px;
+    margin: 0;
+    left: 65px;
+    font-size: 22px;
+}
+
+
+.content {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.content .player {
+    padding-top: 5%;
+    width: 100%;
+    /* background-color: rgb(245, 102, 102); */
+}
+
+.content .content2 {
+    width: 100%;
+    /* background-color: rgb(225, 0, 255); */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .content2 .proposition {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+
+}
+
+.content .content2 .answer {
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+}
+
+.content .content2 .numpad {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.row1 div{
+    background-color: yellow;
+    width: 20%;
+    text-align: center;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.row2 div{
+    background-color: yellow;
+    width: 20%;
+    text-align: center;
+}
+.row3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.row3 div{
+    background-color: yellow;
+    width: 20%;
+    text-align: center;
+}
+.row4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    /* padding-left: 15%; */
+}
+.row4 div{
+    background-color: yellow;
+    width: 20%;
+    text-align: center;
+}
+.content .enemy {
+    padding-top: 5%;
+    width: 100%;
+    /* background-color: rgb(121, 121, 252) */
+}
