@@ -113,6 +113,7 @@ const GameOne: React.FC = () => {
                         </div>
                     </div> : <div className='proposition'>
                         <button onClick={() => startGame()}>Start</button>
+                        <button onClick={() => resetData()}>Reset</button>
                     </div>}
                     <div className='answer'>
                         <input type="text" value={screen} readOnly />
